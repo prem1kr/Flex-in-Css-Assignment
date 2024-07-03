@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question5</title>
+    <style>
+body{
+    background-color: black;
+}
+    
+.background{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 290px;
+    padding: 72px;
+    width: 14590px;
+    height: 800px;
+   
+}
+.right{
+    position: absolute;
+    top: 80px;
+    left: 50%;  
+}
+.left{
+    position: absolute;
+    top: 80px;
+    left:13.4%;
+    background-color:white;
+    width: 36.7%;
+    height: 85.5%;
+    display: flex;
+}
+.logo1{
+    position: absolute;
+    left:10% ;
+    top: 5%;
+}
+.logo2{
+    
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.button-heading{
+    position:absolute;
+    top: 6%;
+    left: 55%;
+    font-weight: 900;
+}
+
+.button-heading1{
+    position:absolute;
+    top: 6%;
+    left: 68%;
+    font-weight: 900;
+}
+
+.button-heading2{
+    position:absolute;
+    top: 6%;
+    left: 82%;
+    font-weight: 900;
+}
+
+.button1{
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: orangered;
+    font-size: 15px;
+    width: 65px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button2{
+    position: absolute;
+    left: 68%;
+    top: 9%;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    width: 67px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(153, 153, 154);
+    background-color: white;
+}
+      
+
+.button3{
+    position: absolute;
+    left: 82%;
+    top: 9%;
+    text-align: center;
+    align-items: center;
+   
+    background-color:white;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+ 
+    border-color: rgb(185, 185, 185);
+    border-radius: 5px;
+}
+
+.hyper-heading{
+    position: absolute;
+    top: 24%;
+    left: 17.5%;
+    font-size: 45px;
+}
+
+.hyper-text1{
+    position: absolute;
+    top: 32%;
+    left: 17.7%;
+    color: rgb(176, 249, 67);
+    font-weight: 540;
+}
+
+.hyper-text2{
+    position: absolute;
+    top: 32%;
+    left: 22.6%;
+    color: orange;
+    font-weight: 540;
+}
+
+.hyper-text3{
+    position: absolute;
+    top: 32%;
+    left: 29%;
+    color: blue;
+    font-weight: 540;
+}
+
+.button-padding{
+    position: absolute;
+    left: 17.5%;
+    top: 42%;
+    background-color:white;
+    width: 700px;
+    height: 50px;
+}
+
+.button4{
+    position: absolute;
+    width: 150px;
+    top: 0%;
+    left: 0%;
+    height: 35px;
+   font-size: 18px;
+   border-radius: 5px;
+   color: white;
+   background-color: rgb(28, 28, 100);
+   font-weight: 600;
+}
+
+.button5{
+    position: absolute;
+    width: 150px;
+    top: 0%;
+    left: 25%;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(187, 186, 186);
+    font-weight: 600;
+}
+
+.button6{
+    position: absolute;
+    width: 160px;
+    top: 0%;
+    left: 50%;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(187, 186, 186);
+    font-weight: 600;
+}
+.train1{
+    background-color:white;
+    position: absolute;
+    left: 17.5%;
+    top: 50%;
+    width: 600px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.train2{
+    background-color:white;
+    position: absolute;
+    left: 17.5%;
+    top: 65%;
+    width: 600px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.hyper-from{
+    position: absolute;
+   
+    left: 10%;
+ 
+   
+    font-weight: 100;
+}
+.img{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+.hyper1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+   
+}
+.hyper2{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+   
+    font-weight: 100;
+}
+
+
+.hyper-from1{
+    position: absolute;
+   
+    left: 67%;
+   
+    
+    font-weight: 100;
+}
+.img1{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.hyper3{
+    position: absolute;
+    top: 20%;
+    left: 67%;
+   
+}
+.hyper4{
+    position: absolute;
+    top: 55%;
+    left: 67%;
+   
+    font-weight: 100;
+}
+
+.circular{
+
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 100%;
+    position: absolute;
+    left: 43%;
+    top: 10%;
+}
+
+
+
+
+
+.hyper-from{
+    position: absolute;
+   
+    left: 10%;
+ 
+   
+    font-weight: 100;
+}
+.img{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+.hyper1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+   
+}
+.hyper2{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+   
+    font-weight: 100;
+}
+
+
+.hyper-from2{
+    position: absolute;
+    left: 76.5%;
+    font-weight: 100;
+}
+.img2{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+.hyper5{
+    position: absolute;
+    top: 20%;
+    left: 76%;
+   
+}
+.hyper6{
+    position: absolute;
+    top: 55%;
+    left: 76.5%;
+   
+    font-weight: 100;
+}
+
+
+
+.hyper-from3{
+    position: absolute;
+    left: 45%;
+    font-weight: 100;
+}
+.img3{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+.hyper7{
+    position: absolute;
+    top: 20%;
+    left: 45.5%;
+   
+}
+.hyper8{
+    position: absolute;
+    top: 55%;
+    left: 45.5%;
+   
+    font-weight: 100;
+}
+
+.subscribe-button{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    top: 82%;
+    left: 17.5%;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    align-items: center;
+    color: white;
+    border: none;
+    background-color: rgb(11, 188, 11);
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="background">
+    <div class="right">
+        <img src="right-image.png" alt="image" width="760px"; height="910px"; >
+    </div>
+
+    <div class="left">
+       <img class="logo1" src="home-logo1.png" alt="image">
+       <img class="logo2" src="home-logo2.png" alt="image">
+       <div class="button-heading">Ask Disha </div>
+       <button class="button1">Login</button>
+       <div class="button-heading1">Contact us</div>
+       <button class="button2">Register</button>
+       <div class="button-heading2">Alerts</div>
+       <button class="button3">Argent Login</button>
+    </div>
+    <h1 class="hyper-heading">Indian Railways</h1>
+    <h1 class="hyper-text1">Safety</h1>
+    <h1 class="hyper-text2">Security</h1>
+    <h1 class="hyper-text3">punctuality</h1>
+
+    <div class="button-padding">
+      <button class="button4">Book Tickets</button>
+      <button class="button5">PNR Status</button>
+      <button class="button6">Chart / Vacancy</button>
+    </div>
+    <div class="train1">
+        <img class="img" src="train-image1.png" alt="image" width="30px"; height="30px";>
+     <h3 class="hyper-from">From ^</h3>
+     <h1 class="hyper1">Bangalore</h1>
+     <h3 class="hyper2">KSR-Bangalore</h3>
+  
+     <img class="img1" src="train-image2.png" alt="image" width="30px"; height="30px";>
+     <h3 class="hyper-from1">To ^</h3>
+     <h1 class="hyper3">Bangalore</h1>
+     <h3 class="hyper4">KSR-Bangalore</h3>
+
+     <p class="circular"></p>
+    </div>
+
+    <div class="train2">
+        <img class="img" src="date-image.png" alt="image" width="30px"; height="30px";>
+        <h3 class="hyper-from">Date ^</h3>
+        <h1 class="hyper1">1 Aug 23</h1>
+        <h3 class="hyper2">Tuesday</h3>
+
+        <img class="img3" src="circular-iamge.png" alt="image" width="30px"; height="30px";>
+        <h3 class="hyper-from3">Class ^</h3>
+        <h1 class="hyper7">3 A</h1>
+        <h3 class="hyper8">AC 3 Tier</h3>
+     
+        <img class="img2" src="square-image.png" alt="image" width="30px"; height="30px";>
+        <h3 class="hyper-from2">Seat type ^</h3>
+        <h1 class="hyper5">TATKAL</h1>
+        <h3 class="hyper6">AC 3 Tier</h3>
+    </div>
+
+    <button class="subscribe-button">Search Train</button>
+     </div>
+     <script>
+        document.body.style.zoom = "0.65"; // 80% zoom out
+    </script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+</head>
+<style>
+    body{
+        background-color: rgb(204, 213, 220);
+    height: 100vh;
+    width: 200vh;
+  
+       
+    }
+    #one{
+        display: inline-flex;
+        background-color: rgb(255, 255, 255);
+        padding: 20%;
+        position: absolute;
+        top: 20%;
+        width: 0%;
+        height: 20%;
+        border-radius: 3%;
+        border: 15px;
+        border-color: rgba(0, 0, 0, 0.046);
+        
+    }
+    #hyper1{
+        position: absolute;
+        display: inline-flex;
+        top: 0%;
+        left: 10%;
+        font-size:215%;
+        font-weight: 900;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #hyper2{
+        display: inline-flex;
+        color: #2a2835;
+        position: absolute;
+        left: 10%;
+       top: 16%;
+        font-size: medium;
+    }
+    #hyper3{
+        display: inline-flex;
+        position: absolute;
+        top: 19%;
+        left: 12%;
+        font-size: 220%;
+    }
+
+ 
+
+    #check1{
+      
+        position: absolute;
+        left: 11%;
+        top: 42%;
+        width: 20px;
+        height: 20px;
+    
+    }
+
+
+
+
+    #check2{
+        position: absolute;
+        left: 11%;
+        top: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    #check3{
+        position: absolute;
+        left: 11%;
+        top: 58%;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    #check4{
+        position: absolute;
+        left: 11%;
+        top: 65%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(20, 20, 70);
+        border-radius: 50%;
+    }
+
+   .hyper1{
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+
+.hyper2{
+    position: absolute;
+    top: 44%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+.hyper3{
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color: #433e5e;
+}
+.hyper4{
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+
+#button1{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    border: none;
+    background-color: #151035;
+    color: white;
+    cursor: pointer;
+    transition: 1.5ms;
+}
+  
+/*second section*/
+#two{
+        display: inline-flex;
+        background-color: rgb(29, 35, 58);
+        padding: 20%;
+        position: absolute;
+        top: 20%;
+        left: 43%;
+        width: 0%;
+        height: 20%;
+        border-radius: 3%;
+        border: 10px;
+    
+        border-color: rgb(247, 247, 247);
+        
+    }
+    #hyper11{
+        position: absolute;
+        display: inline-flex;
+        top: 0%;
+        left: 10%;
+        font-size:215%;
+        font-weight: 900;
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #hyper12{
+        display: inline-flex;
+        color: #d3d0e0;
+        position: absolute;
+        left: 10%;
+       top: 16%;
+        font-size: medium;
+    }
+    #hyper13{
+        display: inline-flex;
+        position: absolute;
+        top: 19%;
+        left: 12%;
+        font-size: 220%;
+        color: white;
+    }
+
+    #check11{
+        position: absolute;
+        left: 12%;
+        top: 42%;
+        width: 25px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+    #check12{
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        width: 25px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+    #check13{
+        position: absolute;
+        left: 12%;
+        top: 58%;
+        width: 25px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+    #check14{
+        position: absolute;
+        left: 12%;
+        top: 65%;
+        width: 25px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+   .hyper11{
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #dbcdcd;
+}
+
+.hyper12{
+    position: absolute;
+    top: 44%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #dbcdcd;
+}
+.hyper13{
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #dbcdcd;
+}
+.hyper14{
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #dbcdcd;
+}
+
+#button11{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 1.5ms;
+}
+
+/*third section */
+#three{
+        display: inline-flex;
+        background-color: rgb(255, 255, 255);
+        padding: 20%;
+        position: absolute;
+        top: 20%;
+        left: 85%;
+        width: 0%;
+        height: 20%;
+        border-radius: 3%;
+        border: 10px;
+        border-color: rgb(0, 0, 0);
+        
+    }
+    #hyper21{
+        position: absolute;
+        display: inline-flex;
+        top: 0%;
+        left: 10%;
+        font-size:215%;
+        font-weight: 900;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #hyper22{
+        display: inline-flex;
+        color: #2a2835;
+        position: absolute;
+        left: 10%;
+       top: 16%;
+        font-size: medium;
+    }
+    #hyper23{
+        display: inline-flex;
+        position: absolute;
+        top: 19%;
+        left: 12%;
+        font-size: 220%;
+    }
+
+    #check21{
+        position: absolute;
+        left: 12%;
+        top: 42%;
+        width: 25px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    #check22{
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        width: 25px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    #check23{
+        position: absolute;
+        left: 12%;
+        top: 58%;
+        width: 25px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    #check24{
+        position: absolute;
+        left: 12%;
+        top: 65%;
+        width: 25px;
+        height: 20px;
+        background-color: rgb(20, 20, 70);
+        border-radius: 50%;
+    }
+
+   .hyper21{
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+
+.hyper22{
+    position: absolute;
+    top: 44%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+.hyper23{
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color: #433e5e;
+}
+.hyper24{
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    font-weight: 900;
+    font-size: medium;
+    color:  #433e5e;
+}
+
+#button21{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    border: none;
+    background-color: #1a1829;
+    color: white;
+    cursor: pointer;
+    transition: 1.5ms;
+}
+  
+
+
+
+      
+
+
+</style>
+<body>
+    <section id="one">
+   <h1 id="hyper1">Free Plan</h1>
+   <h2 id="hyper2">for personal</h2>
+   <h3 id="hyper3">$0</h3>
+   
+    <input id="check1" type="checkbox"  checked> 
+  <h5 class="hyper1">1 User</h5>
+
+  <input id="check2" type="checkbox" checked > 
+  <h5 class="hyper2">4 Web mails</h5>
+  
+  <input id="check3" type="checkbox" checked > 
+  <h5 class="hyper3">Responsive Website</h5>
+ 
+  <input id="check4" type="checkbox"  checked> 
+  <h5 class="hyper4">Free SSL</h5>
+  <button id="button1">Subscribe now</button >
+    </section>
+
+    <section id="two">
+        <h1 id="hyper11">Basic Plan</h1>
+        <h2 id="hyper12">For small business</h2>
+        <h3 id="hyper13">$29</h3>
+      
+    <input id="check11" type="checkbox" checked> 
+       <h5 class="hyper11">4 User</h5>
+      
+    <input id="check12" type="checkbox" checked > 
+       <h5 class="hyper12">10 Web mails</h5>
+      
+    <input id="check13" type="checkbox" checked > 
+       <h5 class="hyper13">Responsive Website</h5>
+      
+    <input id="check14" type="checkbox" checked> 
+       <h5 class="hyper14">Free SSL</h5>
+       <button id="button11">Subscribe now</button >
+         </section>
+
+         <section id="three">
+            <h1 id="hyper21">Pro Plan</h1>
+            <h2 id="hyper22">For interprise</h2>
+            <h3 id="hyper23">$49</h3>
+           
+    <input id="check21" type="checkbox" checked > 
+           <h5 class="hyper21">Unlimitted user</h5>
+           
+    <input id="check22" type="checkbox" checked > 
+           <h5 class="hyper22">Unlimitted Web mails</h5>
+         
+    <input id="check23" type="checkbox" checked > 
+           <h5 class="hyper23">Responsive Website</h5>
+           
+    <input id="check24" type="checkbox" checked > 
+           <h5 class="hyper24">Free SSL + SEO</h5>
+           <button id="button21">Subscribe now</button >
+             </section>
+    
+</body>
+</html>
